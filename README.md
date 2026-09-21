@@ -8,12 +8,6 @@ This repository contains a comprehensive data science investigation into the phy
 
 The analysis specifically explores the "Empty Road Paradox" during the 2020–2021 timeline, proving that while lockdown measures drastically reduced overall traffic volume, the resulting lack of congestion removed natural speed limiters, leading to high-velocity, fatal collisions.
 
-## Key Analytical Features
-* **Time Series Decomposition:** Broke down daily crash volumes into Trend, Seasonality, and Residual components using `statsmodels` to isolate underlying traffic rhythms from chaotic noise.
-* **Granular Seasonality Profiling:** Segmented temporal data to reveal contrasting driver behaviors, specifically mapping the "Bimodal Commute" (weekday rush hours) against the "Nightlife Shift" (weekend late-night spikes).
-* **Algorithmic Anomaly Detection:** Extracted mathematical outliers from the TSA residuals and successfully mapped the most massive, unexplainable crash spikes directly to historical NYC weather events (e.g., the January 2021 Nor'easter Blizzard).
-* **Interactive Geospatial Mapping:** Engineered an interactive `folium` heatmap utilizing Esri map tiles to bypass API restrictions, featuring a dynamic layer-control system to visually separate high-volume property damage from localized fatal crash hotspots.
-* **Severity-Weighted Intersection Profiling:** Developed a custom scoring algorithm ($1\times\text{Crash} + 3\times\text{Injury} + 10\times\text{Fatality}$) to mathematically identify and rank the Top 10 Deadliest Intersections in the city.
 
 ## Technical Stack
 * **Language:** Python
